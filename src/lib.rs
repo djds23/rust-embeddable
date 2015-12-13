@@ -21,7 +21,6 @@ pub extern fn process() {
 
 #[test]
 fn it_works() {
-
-    assert_eq!(true, true);
+    assert_eq!(true, true); // need to get a return value from process
 }
 
